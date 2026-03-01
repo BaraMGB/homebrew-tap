@@ -7,11 +7,11 @@ class Nextstudio < Formula
   on_macos do
     on_arm do
       url "https://github.com/BaraMGB/NextStudio/releases/download/v#{version}/NextStudio-0.01-Darwin.dmg"
-      sha256 "placeholder"
+      sha256 "75b37e2d21f0fa50fabd2db1314cb8de7958ea153820673efa6ba9592654f12d"
     end
     on_intel do
       url "https://github.com/BaraMGB/NextStudio/releases/download/v#{version}/NextStudio-0.01-Darwin.dmg"
-      sha256 "placeholder"
+      sha256 "75b37e2d21f0fa50fabd2db1314cb8de7958ea153820673efa6ba9592654f12d"
     end
   end
 
