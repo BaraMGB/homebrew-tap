@@ -10,17 +10,17 @@ brew tap BaraMGB/tap
 
 ## Available Packages
 
-| Package | Description |
-|---------|-------------|
-| [jumake](https://github.com/BaraMGB/JuMake) | CMake project initialization for JUCE |
-| [nextstudio](https://github.com/BaraMGB/NextStudio) | Digital Audio Workstation (DAW) |
+| Package | Type | Description |
+|---------|------|-------------|
+| [jumake](https://github.com/BaraMGB/JuMake) | Formula | CMake project initialization for JUCE |
+| [nextstudio](https://github.com/BaraMGB/NextStudio) | Cask | Digital Audio Workstation (DAW) |
 
 ## Install
 
 ```bash
-# JuMake
+# JuMake (CLI tool)
 brew install jumake
 
-# NextStudio
-brew install nextstudio
+# NextStudio (GUI app)
+brew install --cask nextstudio
 ```
