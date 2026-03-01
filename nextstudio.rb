@@ -1,16 +1,16 @@
 class Nextstudio < Formula
   desc "Digital Audio Workstation (DAW)"
   homepage "https://github.com/BaraMGB/NextStudio"
-  version "0.01"
+  version "0.01-alpha.1"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/BaraMGB/NextStudio/releases/download/v#{version}/NextStudio-#{version}-macos-arm64.dmg"
-      sha256 "placeholder" # Update after first release
+      url "https://github.com/BaraMGB/NextStudio/releases/download/v#{version}/NextStudio-0.01-Darwin.dmg"
+      sha256 "placeholder"
     end
     on_intel do
-      url "https://github.com/BaraMGB/NextStudio/releases/download/v#{version}/NextStudio-#{version}-macos-x64.dmg"
+      url "https://github.com/BaraMGB/NextStudio/releases/download/v#{version}/NextStudio-0.01-Darwin.dmg"
       sha256 "placeholder"
     end
   end
