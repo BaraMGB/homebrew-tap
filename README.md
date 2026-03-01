@@ -6,7 +6,6 @@ Homebrew tap for my projects.
 
 ```bash
 brew tap BaraMGB/tap
-brew install jumake
 ```
 
 ## Available Packages
@@ -14,3 +13,14 @@ brew install jumake
 | Package | Description |
 |---------|-------------|
 | [jumake](https://github.com/BaraMGB/JuMake) | CMake project initialization for JUCE |
+| [nextstudio](https://github.com/BaraMGB/NextStudio) | Digital Audio Workstation (DAW) |
+
+## Install
+
+```bash
+# JuMake
+brew install jumake
+
+# NextStudio
+brew install nextstudio
+```
